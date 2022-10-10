@@ -1,0 +1,117 @@
+﻿body {
+    height: 100vh;
+    font-family: Microsoft JhengHei;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: #F0FFFF;
+    margin: 0;
+}
+.Title {
+    padding: 0 20vw;
+    font-family: DFKai-sb;
+    font-size: 3rem;
+    color: #06457c;
+    border-bottom: 3px solid #06457c;
+    line-height: 100px;
+    text-align: center;
+}
+.OperateRow {
+    margin: 5px 20vw;
+    background: #5DBAF9;
+    border-radius: 20px;
+    padding: 10px;
+}
+    .OperateRow a {
+        background: #000;
+        color: white;
+        border-radius: 1rem;
+        padding: 5px 15px;
+        box-shadow: 1px 1px 2px 2px #c666;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    .OperateRow select {
+        font-size: 1.5rem;
+        margin-right: 10px;
+        border-radius: 1rem;
+        border: 2px solid;
+        padding: 2px 10px;
+    }
+.Content {
+    margin: 10px 20vw;
+}
+    .Content .ReceiptArea {
+        width: 46%;
+        background: #06457c;
+        border-radius: 20px;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        float: left;
+        margin: 0 5px;
+    }
+        .Content .ReceiptArea table {
+            background: white;
+            color: black;
+            width: 100%;
+            margin: 10px 0px;
+            font-size: 18px;
+            border-spacing: 0;
+        }
+            .Content .ReceiptArea table thead {
+                background: black;
+                color: white;
+            }
+            .Content .ReceiptArea table tbody tr td {
+                border-bottom: 2px solid #666;
+            }
+.CheckRecript {
+    position: absolute;
+    bottom: 10px;
+    width: 57vw;
+    margin: 0 20vw;
+    background: #06457c;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+    .CheckRecript input {
+        font-size: 50px;
+        width: 300px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .CheckRecript a {
+        background: #D00101;
+        padding: 5px 20px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px 0 #735656;
+        cursor: pointer;
+    }
+.BlackBackGround {
+}
+.Result {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.Mark {
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 0;
+}
+.RedFont {
+    color: #FF0000;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.CheckedMessage {
+    position: absolute;
+}
